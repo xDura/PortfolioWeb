@@ -1,0 +1,99 @@
+a {
+	text-decoration: none;
+}
+
+body {
+}
+
+.jumbotron {
+	background-image:url('/../oldWeb/img/Omnimage.jpg');
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.jumbotron .container {
+	position: relative;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 54px;  
+	font-family: Vollkorn, sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-size: 30px;
+	color: #fff;
+	font-family: Vollkorn;
+}
+
+.jumbotron a {
+	font-family: Vollkorn;
+	font-size: 30px;
+}
+
+.demos-block{
+	background-color: #F1F0F6;
+	border-bottom: 1px solid #929292;
+	border-top: 1px solid #929292;
+}
+
+.demos-block .container{
+	padding-bottom: 15px;
+}
+
+.demos-block h2{
+    color: black;
+    font-size: 30px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.demos-block p{
+	margin-bottom: 13px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.demos-block .thumbnail:hover{
+	background-color: #555692;
+	transition: all 0.3s;
+}
+
+.demos-block .thumbnail{
+	text-align: center;
+	background-color: #9689BE;
+	padding: 6px;
+}
+
+.demos-block a{
+	text-decoration: none;
+}
+
+.custom_a a{
+	text-decoration: none;
+	color: black;
+}
+
+.customRow {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	background-color: #9689BE;
+}
+
+.customRow:hover{
+	background-color: #555692;
+	transition: all 0.3s;
+}
+
+/*@media (min-width: 800px){
+
+}*/
+
+
