@@ -1,140 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>X.Durà Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <title>Omnicat Site</title>
-  <head>
-  
-	<!-- ******* META INF ******** -->
-	<meta charset="UTF-8">
-	<meta name="description" content="Omnicat Portfolio Site">
-	<meta name="keywords" content="GameDev, Game Development, JavaScript, WebGL, Threejs, Shaders, Demo">
-	<meta name="author" content="Xavi Dura, Omnicat">
-
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
-	<link rel="icon" type="image/png" href="img/OmnicatIcon.png" sizes="32x32">
-	
-	
-  </head>
-
-  <body>
-
-
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Omnicat</h1>
-        <p>Portfolio site</p>
-      </div>
-    </div>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
     
-    <div class = "demos-block">
-        <div class="container">
-            <h2>Demos</h2>
-            <p>some WebGL and Three.js demos</p>
-			<div class ="row">
-	
-				<div class= "col-md-4">
-					<div class = "thumbnail">
-						<a href="skybox_demo/">
-							<p>Space Skybox three.js demo</p>
-							<image src="img/skybox_demoImg.png"></image>
-						</a>
-					</div>
-				</div>
-					
-                <div class= "col-md-4">
-                    <div class = "thumbnail">
-                        <a href="cell_shader/">
-							<p>Cell shader demo WebGL</p>
-							<image src="img/cellShaderImg.png"></image>
-                        </a>
-                    </div>
-                </div>
-					
-                <div class= "col-md-4">
-					<div class = "thumbnail">
-						<a href="FlatvsPhong/">
-							<p>Flat vs Phong Shading Demo</p>
-							<image src="img/FlatvsPhongImg.png"></image>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
 
-	<!-- Page Content -->
-    <div class="demos-block2">
-    	<div class="container">
-	        <!-- Project One -->
-	        <div class="customRow">
-		        <div class="row">
-		            <div class="col-md-7">
-		                <a href="#">
-		                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-		                </a>
-		            </div>
-		            <div class="col-md-5">
-		                <h3>Project One</h3>
-		                <h4>Subheading</h4>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-		            </div>
-		        </div>
-	        </div>
-	        <!-- /.row -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-	        <hr>
-
-	        <!-- Project Two -->
-	        <div class="customRow">
-		        <div class="row">
-		            <div class="col-md-7">
-	                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-		            </div>
-		            <div class="col-md-5">
-		                <h3>Project Two</h3>
-		                <h4>Subheading</h4>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-		            </div>
-		        </div>
-	        </div>
-	        <!-- /.row -->
-
-	        <hr>
-
-	        <!-- Project Three -->
-	        <div class="customRow">
-		        <div class="row">
-		            <div class="col-md-7">
-		                <a href="#">
-		                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-		                </a>
-		            </div>
-		            <div class="col-md-5">
-		                <h3>Project Three</h3>
-		                <h4>Subheading</h4>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-		            </div>
-		        </div>
-	        </div>
-        </div>
-   	</div>
-
-    <hr>
-    <hr>
-
-    <!-- Footer -->
-    <footer>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>
+    <p>Some text that represents "Me"...</p>
+  </div>
+</div>
+  
+<div class="container text-center">
+  <h3>Some of my Work</h3><br>
+        <!-- Project One -->
         <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img/URSS.PNG" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Global Game Jam 2017</h3>
+                <h4>Ultimate Rampage Survival Stadium (URSS)</h4>
+                <p>This is a project we made for the Global Game Jam 2017. We Participated in Barcelona and finished 6th</p>
+                <a class="btn btn-primary" href="GGJ17/index.html">Play <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
-    </footer>
 
+        <hr>
 
-  </body>
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img/cellShaderImg.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Cell Shading Demo</h3>
+                <h4>Creating a Cell shader in WebGL</h4>
+                <p>I've been really interested on shaders, and specially on toon shading.
+                I found an old technique called inverted back-face culling and I wanted to implement it.
+                That's the result</p>
+                <a class="btn btn-primary" href="cell_shader/index.html">Go <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img/skybox_demoImg.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Project Three</h3>
+                <h4>Subheading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
+                <a class="btn btn-primary" href="skybox_demo/index.html">Go <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img/FlatvsPhongImg.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Project Four</h3>
+                <h4>Subheading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
+                <a class="btn btn-primary" href="FlatvsPhong/index.html">Go <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Project Five</h3>
+                <h4>Subheading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
 </html>
